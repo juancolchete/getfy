@@ -9,7 +9,8 @@
     "typescript": "^5.5.2"
   },
   "scripts":{
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "build && node test.js"
   },
   "type": "module"
 }
