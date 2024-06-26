@@ -1,6 +1,6 @@
 {
   "name": "getfy",
-  "version": "0.0.5",
+  "version": "0.0.10",
   "license": "MIT",
   "packageManager": "yarn@4.3.1",
   "main": "build/index.js",
@@ -12,5 +12,5 @@
     "build": "tsc",
     "dev": "build && node test.js"
   },
-  "type": "module"
+  "type": "commonjs"
 }
