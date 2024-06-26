@@ -24,9 +24,8 @@ const getfy = async (url:string)=>{
       reqUrl += `${paramsKeys[i]}=${paramsValues[i]}&`
     }
   }
-  console.log(urlVars)
-  axios.get(reqUrl,{headers: urlVars.headers})
-  return "getify"
+  const request = await axios.get(reqUrl,{headers: urlVars.headers})
+  return request.data;
 }
 
 export default getfy
