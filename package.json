@@ -1,14 +1,14 @@
 {
   "name": "getfy",
-  "version": "0.0.1",
-  "license":"MIT",
+  "version": "0.0.3",
+  "license": "MIT",
   "packageManager": "yarn@4.3.1",
   "main": "build/index.js",
   "dependencies": {
     "axios": "^1.7.2",
     "typescript": "^5.5.2"
   },
-  "scripts":{
+  "scripts": {
     "build": "tsc",
     "dev": "build && node test.js"
   },
