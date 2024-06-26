@@ -1,6 +1,6 @@
 {
   "name": "getfy",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "license": "MIT",
   "packageManager": "yarn@4.3.1",
   "main": "build/index.js",
