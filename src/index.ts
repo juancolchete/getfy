@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const getify = async (url:string)=>{
+const getfy = async (url:string)=>{
   const urlAndParamsRaw = url.split("?")
   const urlBase = urlAndParamsRaw[0]
   const paramsRaw =  urlAndParamsRaw[1].split("&")
@@ -29,4 +29,4 @@ const getify = async (url:string)=>{
   return "getify"
 }
 
-export default getify
+export default getfy
