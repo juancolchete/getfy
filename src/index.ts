@@ -25,7 +25,13 @@ const getfy = async (url:string)=>{
     }
   }
   const request = await axios.get(reqUrl,{headers: urlVars.headers})
-  return request.data;
+  let postRunData = request
+  if(urlVars?.["code"].length > 0){
+    postRunData = eval(urlVars["code"])
+  }else{
+    postRunData = request.data;
+  }
+  return postRunData;
 }
 
 export default getfy
